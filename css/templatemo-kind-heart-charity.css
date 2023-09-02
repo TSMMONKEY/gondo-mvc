@@ -261,7 +261,7 @@ strong {
   CUSTOM TEXT BOX               
 -----------------------------------------*/
 .custom-text-box {
-  height: 350px;
+  height: 375px;
   background: var(--white-color);
   border-radius: var(--border-radius-medium);
   margin-bottom: 24px;
@@ -447,6 +447,14 @@ strong {
   .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  #widget-section {
+    width: 100% !important;
+  }
+  #More-Section-Info{
+    width: 100% !important;
   }
 }
 
@@ -714,7 +722,7 @@ strong {
   border-radius: 50%;
   position: absolute;
   bottom: -110px;
-  right: -80px;
+  right: -131px;
   width: 350px;
   height: 350px;
 }
@@ -747,7 +755,7 @@ strong {
   DONATE              
 -----------------------------------------*/
 .donate-section {
-  background-image: url("../images/different-people-doing-volunteer-work.jpg");
+  background-image: url("../images/sign-up.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -768,7 +776,7 @@ strong {
   NEWS         
 -----------------------------------------*/
 .news-detail-header-section {
-  background-image: url("../images/about.jpg");
+  background-image: url("../images/on-site-landig-pic.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -778,6 +786,24 @@ strong {
 }
 .cit-detail-header-section {
   background-image: url("../images/cash-in-transit0.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.STV-detail-header-section {
+  background-image: url("../images/satellite-page.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.ESM-detail-header-section {
+  background-image: url("../images/event-security1.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -797,6 +823,19 @@ strong {
   position: relative;
   overflow: hidden;
   width: 150px;
+  margin-right: 20px;
+}
+.news-block-two-col-info h6{
+  font-size: 15px;
+}
+.news-block-two-col-info p{
+  font-size: 10px;
+}
+.news-block-two-col-image-wrap-about {
+  border-radius: var(--border-radius-small);
+  position: relative;
+  overflow: hidden;
+  width: 33%;
   margin-right: 20px;
 }
 
@@ -828,6 +867,12 @@ strong {
   border-radius: var(--border-radius-medium);
 }
 
+.more-info {
+  display: flex;
+  width: 100%;
+  flex-flow: wrap row;
+  justify-content: space-between;
+}
 blockquote {
   background: var(--section-bg-color);
   border-radius: var(--border-radius-small);
@@ -1065,7 +1110,9 @@ blockquote::before {
   border-radius: var(--border-radius-small);
   padding: 40px;
 }
-
+.on-site-contact {
+  padding: 31px;
+}
 .contact-info-wrap {
   padding-top: 40px;
 }
@@ -1266,6 +1313,23 @@ blockquote::before {
 .donate-form .form-control {
   margin-bottom: 0;
 }
+ #Contact-Form{
+  width: 100%;
+}
+ #Contact-Form .form-control{
+  width: 100%;
+    margin-bottom: 20px !important;
+}
+#First-Contact-Form{
+  width: 100%;
+  background-color: #f1f8ff;
+  padding: 30px;
+    margin-bottom: 20px !important;
+}
+#First-Contact-Form input{
+  background-color: #fff;
+    margin-bottom: 20px !important;
+}
 
 /*---------------------------------------
   SITE FOOTER              
@@ -1308,6 +1372,11 @@ blockquote::before {
 
 .site-footer .custom-btn:hover {
   background: var(--primary-color);
+}
+.site-footer-title {
+  color: #fff;
+  font-weight: 700;
+
 }
 
 /*---------------------------------------
@@ -1436,6 +1505,7 @@ blockquote::before {
 
   .navbar-expand-lg .navbar-nav {
     padding-bottom: 30px;
+    text-align: center;
   }
 
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -1576,6 +1646,9 @@ blockquote::before {
 }
 
 @media screen and (max-width: 580px) {
+  .site-header {
+    display: none !important;
+  }
   .hero-section-full-height,
   #hero-slide .carousel-item,
   .carousel-image {
