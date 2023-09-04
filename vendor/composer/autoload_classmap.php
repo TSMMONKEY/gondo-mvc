@@ -6,5 +6,16 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Controller\\CoursesController\\CoursesController' => $baseDir . '/App/Controller/CoursesController.php',
+    'App\\Models\\Courses\\Courses' => $baseDir . '/App/Models/Courses.php',
+    'Bramus\\Router\\Router' => $vendorDir . '/bramus/router/src/Bramus/Router/Router.php',
+    'ComposerAutoloaderInit5afe4b1b92e0c0d0e46130efa5ac4abd' => $vendorDir . '/composer/autoload_real.php',
+    'Composer\\Autoload\\ClassLoader' => $vendorDir . '/composer/ClassLoader.php',
+    'Composer\\Autoload\\ComposerStaticInit5afe4b1b92e0c0d0e46130efa5ac4abd' => $vendorDir . '/composer/autoload_static.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Handler' => $vendorDir . '/bramus/router/tests/RouterTest.php',
+    'Hello\\HelloRouterTestController' => $vendorDir . '/bramus/router/tests/RouterTest.php',
+    'MultilangRouter' => $vendorDir . '/bramus/router/demo-multilang/index.php',
+    'RouterTest' => $vendorDir . '/bramus/router/tests/RouterTest.php',
+    'RouterTestController' => $vendorDir . '/bramus/router/tests/RouterTest.php',
 );

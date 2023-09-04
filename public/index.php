@@ -546,7 +546,7 @@
                 <div class="custom-block">
                   <div class="custom-block-body">
                     <h5 class="mb-3">
-                      Cash In Transit (CIT) Security Training
+                      Cash In Transit Security Training
                     </h5>
 
                     <p>
