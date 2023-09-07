@@ -6,6 +6,7 @@
         ]
     },
     "require": {
-        "bramus/router": "~1.6"
+        "bramus/router": "~1.6",
+        "itsgoingd/clockwork": "^5.1"
     }
 }

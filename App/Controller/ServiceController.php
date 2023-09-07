@@ -5,23 +5,24 @@ use Core\Helper;
 
 class ServiceController
 {
-    public function OneSite() {
-        $viewHelper = new Helper();
-        return $viewHelper->view('services/onsite');
+    public function onsite() {
+        // echo 'awe';
+        $helper = new Helper();
+        return $helper->servicesView('onsite');
     }
     
     public function CIT() {
-        $viewHelper = new Helper();
-        return $viewHelper->view('cit');
+        $servicesView = new Helper();
+        return $servicesView->servicesView('cit');
     }
     
     public function SatelliteTracking() {
-        $viewHelper = new Helper();
-        return $viewHelper->view('satelite');
+        $servicesView = new Helper();
+        return $servicesView->servicesView('satellite');
     }
     
     public function EventSecurity() {
-        $viewHelper = new Helper();
-        return $viewHelper->view('event');
+        $servicesView = new Helper();
+        return $servicesView->servicesView('event');
     }
 }

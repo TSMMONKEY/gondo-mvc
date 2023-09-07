@@ -1,5 +1,4 @@
 <?php
-
 use App\Controller\PageController;
 use App\Controller\ServiceController;
 
@@ -16,10 +15,10 @@ $router->get('/contact', 'App\Controller\PageController@contact');
 // services routes
 $prefix = '/service';
 
-$router->get('/service/onsite-security', 'ServiceController@OnSite');
-$router->get('/service/satellite-tracking', 'ServiceController@SatelliteTracking');
-$router->get('/service/cash-in-transit', 'ServiceController@CIT');
-$router->get('/service/event-security', 'ServiceController@EventSecurity');
+$router->get('/service/onsite-security', 'App\Controller\ServiceController@onsite');
+$router->get('/service/satellite-tracking', 'App\Controller\ServiceController@SatelliteTracking');
+$router->get('/service/cash-in-transit', 'App\Controller\ServiceController@CIT');
+$router->get('/service/event-security', 'App\Controller\ServiceController@EventSecurity');
 
 // 400 page
 $router->set404('/api(/.*)?', function() {
