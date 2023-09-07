@@ -19,4 +19,16 @@ class PageController
         $viewHelper = new Helper();
         return $viewHelper->view('contact');
     }
+    
+    public function store() {
+        echo 'awe';
+
+        header('Location: /thank-you');
+    }
+
+    public function thank_you() {
+        echo 'awe';
+        $viewHelper = new Helper();
+        return $viewHelper->view('thankyou');
+    }
 }

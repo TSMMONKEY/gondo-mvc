@@ -11,6 +11,8 @@ $router->get('/', 'App\Controller\PageController@index');
 $router->get('/about', 'App\Controller\PageController@about');
 
 $router->get('/contact', 'App\Controller\PageController@contact');
+$router->post('/contact', 'App\Controller\PageController@store');
+$router->get('/thank-you', 'App\Controller\PageController@thank_you');
 
 // services routes
 $prefix = '/service';

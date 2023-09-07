@@ -92,13 +92,13 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link click-scroll" href="#sectionon_3">courses</a>
+              <a class="nav-link click-scroll" href="/#section_3">courses</a>
             </li>
 
             <li class="nav-item dropdown">
               <a
                 class="nav-link click-scroll dropdown-toggle"
-                href="#seCITon_5"
+                href="/#section_5"
                 id="navbarLightDropdownMenuLink"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -137,7 +137,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link click-scroll" href="#section_6">Contact</a>
+              <a class="nav-link click-scroll" href="/#section_6">Contact</a>
             </li>
 
             <li class="nav-item ms-3">
