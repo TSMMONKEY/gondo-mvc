@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Controller\\CoursesController\\CoursesController' => $baseDir . '/App/Controller/CoursesController.php',
     'App\\Controller\\PageController' => $baseDir . '/App/Controller/PageController.php',
+    'App\\Controller\\ServiceController' => $baseDir . '/App/Controller/ServiceController.php',
     'App\\Models\\Courses\\Courses' => $baseDir . '/App/Models/Courses.php',
     'Bramus\\Router\\Router' => $vendorDir . '/bramus/router/src/Bramus/Router/Router.php',
     'ComposerAutoloaderInit5afe4b1b92e0c0d0e46130efa5ac4abd' => $vendorDir . '/composer/autoload_real.php',

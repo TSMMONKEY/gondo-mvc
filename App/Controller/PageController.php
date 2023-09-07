@@ -9,4 +9,14 @@ class PageController
         $viewHelper = new Helper();
         return $viewHelper->view('home');
     }
+    
+    public function about() {
+        $viewHelper = new Helper();
+        return $viewHelper->view('about');
+    }
+    
+    public function contact() {
+        $viewHelper = new Helper();
+        return $viewHelper->view('contact');
+    }
 }
