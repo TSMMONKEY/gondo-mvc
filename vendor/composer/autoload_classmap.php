@@ -99,6 +99,7 @@ return array(
     'Composer\\Autoload\\ClassLoader' => $vendorDir . '/composer/ClassLoader.php',
     'Composer\\Autoload\\ComposerStaticInit5afe4b1b92e0c0d0e46130efa5ac4abd' => $vendorDir . '/composer/autoload_static.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Core\\DbConnect' => $baseDir . '/Core/DbConnect.php',
     'Core\\Helper' => $baseDir . '/Core/Helper.php',
     'Handler' => $vendorDir . '/bramus/router/tests/RouterTest.php',
     'Hello\\HelloRouterTestController' => $vendorDir . '/bramus/router/tests/RouterTest.php',

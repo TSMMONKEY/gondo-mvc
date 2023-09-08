@@ -124,6 +124,7 @@ class ComposerStaticInit5afe4b1b92e0c0d0e46130efa5ac4abd
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
         'Composer\\Autoload\\ComposerStaticInit5afe4b1b92e0c0d0e46130efa5ac4abd' => __DIR__ . '/..' . '/composer/autoload_static.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Core\\DbConnect' => __DIR__ . '/../..' . '/Core/DbConnect.php',
         'Core\\Helper' => __DIR__ . '/../..' . '/Core/Helper.php',
         'Handler' => __DIR__ . '/..' . '/bramus/router/tests/RouterTest.php',
         'Hello\\HelloRouterTestController' => __DIR__ . '/..' . '/bramus/router/tests/RouterTest.php',

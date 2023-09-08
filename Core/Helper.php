@@ -14,4 +14,15 @@ class Helper
 
         return require "../resources/view/services/{$view}.view.php";
     }
+    
+    function dd($data) {
+        echo '<pre>';
+        var_dump($data);
+        echo '</pre>';
+        die();
+    }
+    
+    public function redirect($url) {
+        return header("Location:". $url);
+    }
 } 

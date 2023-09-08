@@ -180,8 +180,8 @@
 
                 <input
                   type="email"
-                  name="subscribe-email"
-                  id="subscribe-email"
+                  name="email"
+                  id="email"
                   pattern="[^ @]*@[^ @]*"
                   class="form-control"
                   placeholder="Email Address"

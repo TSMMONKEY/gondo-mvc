@@ -476,8 +476,8 @@
                   <div class="col-lg-12 col-12">
                     <input
                       type="email"
-                      name="volunteer-email"
-                      id="volunteer-email"
+                      name="email"
+                      id="email"
                       pattern="[^ @]*@[^ @]*"
                       class="form-control"
                       placeholder="example@gmail.com"
